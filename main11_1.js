@@ -1,27 +1,4 @@
-﻿var mass = [1,2,3,4];
-
-function myPush() {
-   for (var i = 0; i < arguments.length; i++){
-        this[this.length] = arguments[i];
-        console.log(this[this.length], 'this[this.length]');
-    }
-
-}
-
-
-mass.myPush = myPush;
-
-mass.myPush(1, 2);
-//mass.myPush(5);
-//mass.myPush(2);
-//mass.myPush(1);
-
-console.log(mass, 'mass');
-
-//----------------------------------------------
-
-
-var massJoin = [1,2,3,4];
+﻿var massJoin = [1,2,3,4];
 debugger;
 massJoin.myJoin = function (separator) {
     var str = '';
@@ -42,12 +19,6 @@ massJoin.myJoin = function (separator) {
 
 massJoin.myJoin('!');
 console.log(massJoin.myJoin('!'), "massJoin.myJoin('!')");
-
-//---------------------------
-
-var massRevers = [1, 2, 3, 4, 5];
-
-
 
 
 
