@@ -18,6 +18,7 @@ massJoin.myJoin = function (separator) {
 }
 
 massJoin.myJoin('!');
+
 console.log(massJoin.myJoin('!'), "massJoin.myJoin('!')");
 
 
