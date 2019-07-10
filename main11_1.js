@@ -1,5 +1,6 @@
 ﻿var massJoin = [1,2,3,4];
 debugger;
+
 massJoin.myJoin = function (separator) {
     var str = '';
     separator = separator || "";
