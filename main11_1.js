@@ -15,6 +15,7 @@ massJoin.myJoin = function (separator) {
     console.log(i, 'i');
 
     str += this[i];
+
     return str;
 }
 
