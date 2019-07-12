@@ -33,7 +33,6 @@ function myPush() {
 
 }
 
-
 mass.myPush = myPush;
 
 mass.myPush(1, 2);
