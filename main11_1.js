@@ -13,9 +13,7 @@ massJoin.myJoin = function (separator) {
     }
 
     console.log(i, 'i');
-
     str += this[i];
-
     return str;
 }
 
@@ -42,5 +40,4 @@ mass.myPush(1, 2);
 mass.myPush(5);
 //mass.myPush(2);
 //mass.myPush(1);
-
 console.log(mass, 'mass');
